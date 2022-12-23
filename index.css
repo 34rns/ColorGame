@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cherry+Swash:wght@400;700&family=Dancing+Script:wght@400;500;600;700&family=Dongle:wght@300;400;700&family=Fjalla+One&family=Fredoka+One&family=Lexend+Deca:wght@300;400;500;600;700;800;900&family=Lobster&family=Montserrat+Alternates:ital,wght@0,100;0,600;0,700;0,900;1,100;1,600;1,800;1,900&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Pacifico&family=Permanent+Marker&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Supermercado+One&display=swap');
+
+*, *::before, *::after {
+     /* box-sizing: border-box; */
+     font-family: "Raleway", Sans-serif;
+     content: "";
+     clear: both;
+     padding: 0;
+     margin: 0;
+}
+body{
+  background-color: aliceblue;
+}
+#container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.square {
+  width: 30%;
+  background-color: rgb(255, 89, 0);
+  padding-bottom: 30%;
+  float: left;
+  margin: 1.66%;
+  transition: 0.3s;
+}
+
+h1 {
+  color: white;
+  background-color: #252525;
+  font-size: 3.5em;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 10px 0;
+}
+
+#color-display {
+  display: block;
+  font-size: 2em;
+}
+
+#stripe {
+  background: white;
+  text-align: center;
+  color: black;
+}
+
+#message {
+  text-transform: uppercase;
+  color: #252525;
+  font-size: 1.5em;
+  display: inline-block;
+  width: 20%;
+}
+
+button{
+  padding: 0.1em;
+  outline: none;
+  color: #252525;
+  font-family: "Raleway", Sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  background-color: white;
+  height: 100%;
+  letter-spacing: 1px;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+}
+span {
+  text-transform: uppercase;
+  font-family: "Raleway", Sans-serif;
+}
+button:hover {
+  background-color: #252525;
+  color: white;
+}
+
+.selected {
+  background-color: #252525;
+  color: white;
+}
+
+.square {
+  border-radius: 20%;
+  cursor: pointer;
+}
+
+* {
+  border: 0px solid rgb(255, 255, 255);
+}
+
